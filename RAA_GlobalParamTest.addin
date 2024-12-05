@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>RAA_GlobalParamTest - Command 1</Text>
+    <Description>Some description</Description>
+    <Assembly>RAA_GlobalParamTest\RAA_GlobalParamTest.dll</Assembly>
+    <FullClassName>RAA_GlobalParamTest.Command1</FullClassName>
+    <ClientId>68d639f7-55d1-4775-9468-84eba5f64c43</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>RAA_GlobalParamTest - Command 2</Text>
+    <Description>Some description</Description>
+    <Assembly>RAA_GlobalParamTest\RAA_GlobalParamTest.dll</Assembly>
+    <FullClassName>RAA_GlobalParamTest.Command2</FullClassName>
+    <ClientId>285954d4-cd62-4af9-ba07-4bc0a89c9e0e</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>RAA_GlobalParamTest</Name>
+    <Assembly>RAA_GlobalParamTest\RAA_GlobalParamTest.dll</Assembly>
+    <FullClassName>RAA_GlobalParamTest.App</FullClassName>
+    <ClientId>b4088b58-27ac-4399-b8aa-015f8fc3220b</ClientId>
+    <VendorId>com.YOUR COMPANY NAME</VendorId>
+    <VendorDescription>YOUR COMPANY NAME, YOUR COMPANY URL</VendorDescription>
+  </AddIn>
+</RevitAddIns>
