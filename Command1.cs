@@ -29,7 +29,11 @@
                 {
                     t1.Start("Add global parameter");
                     // create the parameter
+#if REVIT2020 || REVIT2021
+                    GlobalParameter.Create(doc, paramName, ParameterType.Number);
+#else
                     GlobalParameter.Create(doc, paramName, SpecTypeId.Number);
+#endif
                     t1.Commit();
 
                     gParam1 = GetGlobalParameterByName(doc, paramName);
@@ -42,7 +46,11 @@
                 {
                     t1.Start("Add global parameter2");
                     // create the parameter
+#if REVIT2020 || REVIT2021
+                    GlobalParameter.Create(doc, paramName2, ParameterType.Number);
+#else
                     GlobalParameter.Create(doc, paramName2, SpecTypeId.Number);
+#endif
                     t1.Commit();
 
                     gParam2 = GetGlobalParameterByName(doc, paramName2);
